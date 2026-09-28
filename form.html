@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Student Registration Form</title>
+  </head>
+
+  <body>
+    <h2>Student Registration Form</h2>
+
+    <form>
+      <fieldset>
+        <legend>Student Registration Form</legend>
+
+        <label>First-name</label>
+        <input type="text" />
+        <br /><br />
+
+        <label>Last-name</label>
+        <input type="text" />
+        <br /><br />
+
+        <label>Password</label>
+        <input type="password" />
+        <br /><br />
+
+        <label>Email</label>
+        <input type="email" />
+        <br /><br />
+
+        <label>Age</label>
+        <input type="number" />
+        <br /><br />
+
+        <label>DOB</label>
+        <input type="date" />
+        <br /><br />
+
+        <label>File upload</label>
+        <input type="file" />
+        <br /><br />
+
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male" /> Male
+        <input type="radio" name="gender" value="female" /> Female <br /><br />
+
+        <label>Course</label>
+        <select name="course">
+          <option value="BCA">BCA</option>
+          <option value="MCA">MCA</option>
+          <option value="BTech">BTech</option>
+        </select>
+        <br /><br />
+
+        <label>Address</label>
+        <textarea rows="5" cols="50"></textarea>
+        <br /><br />
+
+        <label>City</label>
+        <input list="cities" name="city" />
+
+        <datalist id="cities">
+          <option value="Jamshedpur"></option>
+          <option value="Ranchi"></option>
+          <option value="Kolkata"></option>
+        </datalist>
+        <br /><br />
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
